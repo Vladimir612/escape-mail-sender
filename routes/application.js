@@ -7,10 +7,9 @@ sgMail.setApiKey(process.env.API_KEY);
 const sendEmailContactForm = async (emailObject) => {
   console.log(emailObject);
   const msg = {
-    to: "vladimir.lazarevic@fonis.rs",
+    to: "upisi.escape@gmail.com",
     from: process.env.EMAIL,
     subject: `[Escape] - upisnica`,
-    cc: "vladimir.12.lazarevic@gmail.com",
     html: `<div style="color: black">
     <h1>Nova upisnica</h1>
     <h2 style="margin: 20px 0">Ime i prezime plesača:</h2>
